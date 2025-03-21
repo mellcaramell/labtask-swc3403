@@ -25,7 +25,8 @@ class _HomePageState extends State<HomePage> {
       'id': 'an_introduction_to_islamic_calligraphy_exhibition',
       'openingHours': '09:30 am to 06:00 pm daily',
       'location': 'Special Gallery 2, IAMM',
-      'ticketFee': 'Adults: RM20\nStudents: RM10\nSenior (Malaysian): RM10\nSenior (Non-Malaysian): RM20\nChildren (under 6): FREE',
+      'ticketFee':
+          'Adults: RM20\nStudents: RM10\nSenior (Malaysian): RM10\nSenior (Non-Malaysian): RM20\nChildren (under 6): FREE',
     },
     {
       'title': 'Hajj Journey Through the Ages',
@@ -36,7 +37,8 @@ class _HomePageState extends State<HomePage> {
       'id': 'hajj_journey_through_the_ages_exhibition',
       'openingHours': '09:30 am to 06:00 pm daily',
       'location': 'Special Gallery 1, IAMM',
-      'ticketFee': 'Adults: RM20\nStudents: RM10\nSenior (Malaysian): RM10\nSenior (Non-Malaysian): RM20\nChildren (under 6): FREE',
+      'ticketFee':
+          'Adults: RM20\nStudents: RM10\nSenior (Malaysian): RM10\nSenior (Non-Malaysian): RM20\nChildren (under 6): FREE',
     },
     {
       'title': 'Islamic Bookbinding',
@@ -47,7 +49,8 @@ class _HomePageState extends State<HomePage> {
       'id': 'islamic_bookbinding_exhibition',
       'openingHours': '09:30 am to 06:00 pm daily',
       'location': 'Special Gallery 2, IAMM',
-      'ticketFee': 'Adults: RM20\nStudents: RM10\nSenior (Malaysian): RM10\nSenior (Non-Malaysian): RM20\nChildren (under 6): FREE',
+      'ticketFee':
+          'Adults: RM20\nStudents: RM10\nSenior (Malaysian): RM10\nSenior (Non-Malaysian): RM20\nChildren (under 6): FREE',
     },
   ];
 
@@ -173,7 +176,7 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       _selectedIndex = index;
     });
-    
+
     // Navigate based on selected index
     if (index == 1) {
       // Navigate to Exhibitions page
@@ -898,35 +901,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
-// BottomNavigationBar item needs to be corrected
-// Original code had BottomNavigationBar as items instead of BottomNavigationBarItem
-// Here's the corrected version:
-
-/*
-bottomNavigationBar: BottomNavigationBar(
-  backgroundColor: Colors.white,
-  selectedItemColor: const Color(0xFFD4AF37),
-  unselectedItemColor: const Color(0xFF6F8CA3),
-  currentIndex: _selectedIndex,
-  type: BottomNavigationBarType.fixed,
-  onTap: _onItemTapped,
-  items: const [
-    BottomNavigationBarItem(
-      icon: Icon(Icons.home_outlined),
-      activeIcon: Icon(Icons.home),
-      label: 'Home',
-    ),
-    BottomNavigationBarItem(
-      icon: Icon(Icons.event_outlined),
-      activeIcon: Icon(Icons.event),
-      label: 'Exhibitions',
-    ),
-    BottomNavigationBarItem(
-      icon: Icon(Icons.collections_outlined),
-      activeIcon: Icon(Icons.collections),
-      label: 'Gallery',
-    ),
-  ],
-),
-*/
