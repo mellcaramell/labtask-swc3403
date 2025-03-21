@@ -1,0 +1,57 @@
+name: museum_app
+description: A museum application for displaying exhibitions, visitor information, and gallery artifacts.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  font_awesome_flutter: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/museum_logo.png
+    - assets/museum_background.jpg
+    - assets/exhibition1.jpg
+    - assets/exhibition2.jpg
+    - assets/exhibition3.jpg
+    - assets/gallery_desc1.jpg
+    - assets/gallery_desc2.jpg
+    - assets/gallery_desc3.jpg
+    - assets/gallery_desc4.jpg
+    - assets/gallery_high1.jpg
+    - assets/gallery_high2.jpg
+    - assets/gallery_high3.jpg
+    - assets/gallery_high4.jpg
+    - assets/gallery_high5.jpg
+    - assets/gallery_high6.jpg
+    - assets/gallery_high7.jpg
+    - assets/gallery_high8.jpg
+    - assets/gallery_high9.jpg
+    - assets/gallery_high10.jpg
+    - assets/gallery_high11.jpg
+    - assets/gallery_high12.jpg
+    
+    
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+        - asset: fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: fonts/Roboto-Italic.ttf
+          style: italic
